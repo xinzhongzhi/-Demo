@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		C4C1A49B1F1F46790043F63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A49A1F1F46790043F63B /* main.m */; };
 		C4C1A49E1F1F46790043F63B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A49D1F1F46790043F63B /* AppDelegate.m */; };
-		C4C1A4A11F1F46790043F63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4A01F1F46790043F63B /* ViewController.m */; };
 		C4C1A4A41F1F46790043F63B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A4A21F1F46790043F63B /* Main.storyboard */; };
 		C4C1A4A61F1F46790043F63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A4A51F1F46790043F63B /* Assets.xcassets */; };
 		C4C1A4A91F1F46790043F63B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A4A71F1F46790043F63B /* LaunchScreen.storyboard */; };
 		C4C1A4B41F1F46790043F63B /* _____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4B31F1F46790043F63B /* _____DemoTests.m */; };
 		C4C1A4BF1F1F46790043F63B /* _____DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4BE1F1F46790043F63B /* _____DemoUITests.m */; };
+		C4C1A4CF1F1F468E0043F63B /* PopDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4CD1F1F468E0043F63B /* PopDatePickerView.m */; };
+		C4C1A4D01F1F468E0043F63B /* PopDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A4CE1F1F468E0043F63B /* PopDatePickerView.xib */; };
+		C4C1A4D91F1F56EC0043F63B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C1A4D71F1F56EC0043F63B /* ViewController.m */; };
+		C4C1A4DA1F1F56EC0043F63B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C1A4D81F1F56EC0043F63B /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		C4C1A49A1F1F46790043F63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C1A49C1F1F46790043F63B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4C1A49D1F1F46790043F63B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C4C1A49F1F1F46790043F63B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C4C1A4A01F1F46790043F63B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C4C1A4A31F1F46790043F63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4C1A4A51F1F46790043F63B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C1A4A81F1F46790043F63B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,12 @@
 		C4C1A4BA1F1F46790043F63B /* 年月日弹窗DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "年月日弹窗DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C1A4BE1F1F46790043F63B /* _____DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoUITests.m"; sourceTree = "<group>"; };
 		C4C1A4C01F1F46790043F63B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C1A4CC1F1F468E0043F63B /* PopDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopDatePickerView.h; sourceTree = "<group>"; };
+		C4C1A4CD1F1F468E0043F63B /* PopDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopDatePickerView.m; sourceTree = "<group>"; };
+		C4C1A4CE1F1F468E0043F63B /* PopDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDatePickerView.xib; sourceTree = "<group>"; };
+		C4C1A4D61F1F56EC0043F63B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4C1A4D71F1F56EC0043F63B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4C1A4D81F1F56EC0043F63B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +110,13 @@
 			children = (
 				C4C1A49C1F1F46790043F63B /* AppDelegate.h */,
 				C4C1A49D1F1F46790043F63B /* AppDelegate.m */,
-				C4C1A49F1F1F46790043F63B /* ViewController.h */,
-				C4C1A4A01F1F46790043F63B /* ViewController.m */,
+				C4C1A4D61F1F56EC0043F63B /* ViewController.h */,
+				C4C1A4D71F1F56EC0043F63B /* ViewController.m */,
+				C4C1A4D81F1F56EC0043F63B /* ViewController.xib */,
 				C4C1A4A21F1F46790043F63B /* Main.storyboard */,
+				C4C1A4CC1F1F468E0043F63B /* PopDatePickerView.h */,
+				C4C1A4CD1F1F468E0043F63B /* PopDatePickerView.m */,
+				C4C1A4CE1F1F468E0043F63B /* PopDatePickerView.xib */,
 				C4C1A4A51F1F46790043F63B /* Assets.xcassets */,
 				C4C1A4A71F1F46790043F63B /* LaunchScreen.storyboard */,
 				C4C1A4AA1F1F46790043F63B /* Info.plist */,
@@ -246,6 +257,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C1A4DA1F1F56EC0043F63B /* ViewController.xib in Resources */,
+				C4C1A4D01F1F468E0043F63B /* PopDatePickerView.xib in Resources */,
 				C4C1A4A91F1F46790043F63B /* LaunchScreen.storyboard in Resources */,
 				C4C1A4A61F1F46790043F63B /* Assets.xcassets in Resources */,
 				C4C1A4A41F1F46790043F63B /* Main.storyboard in Resources */,
@@ -273,8 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C1A4A11F1F46790043F63B /* ViewController.m in Sources */,
+				C4C1A4CF1F1F468E0043F63B /* PopDatePickerView.m in Sources */,
 				C4C1A49E1F1F46790043F63B /* AppDelegate.m in Sources */,
+				C4C1A4D91F1F56EC0043F63B /* ViewController.m in Sources */,
 				C4C1A49B1F1F46790043F63B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
